@@ -1,0 +1,4 @@
+@import "tailwindcss";
+:root{--ink:#111827;--violet:#7c3aed;--lavender:#ede9fe;--mint:#a7f3d0;--warm:#fafaf9;--muted:#64748b;--line:#e7e5e4;--radius:18px}
+@theme inline{--color-ink:var(--ink);--color-violet:var(--violet);--color-lavender:var(--lavender);--color-mint:var(--mint);--color-warm:var(--warm);--color-muted:var(--muted);--color-line:var(--line);--radius-card:var(--radius);--font-display:var(--font-space);--font-body:var(--font-inter)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--warm);color:var(--ink);font-family:var(--font-inter),sans-serif}button,a{transition:all .18s ease}button:focus-visible,a:focus-visible{outline:3px solid var(--violet);outline-offset:3px}button:active,a:active{transform:translateY(1px)}
