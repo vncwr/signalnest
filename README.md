@@ -168,3 +168,7 @@ Not currently implemented:
 - Move local arrays into typed modules under `data/` as the content set grows.
 - Add automated accessibility checks and end-to-end tests for the menu, pricing toggle, FAQ, and toast.
 - Add a real logo asset system if the customer wordmarks need to use brand artwork instead of inline text.
+
+## Vercel deployment
+
+This repository is configured for Vercel with `vercel.json`. Import the repository in Vercel, keep the framework set to **Next.js**, and use the project root as the deployment root. Vercel will run `npm ci` to install dependencies and `npm run build` to create the production deployment. Node.js 20 or newer is declared in `package.json`.
